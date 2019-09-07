@@ -9,7 +9,8 @@
 <body>
     <h1>Hello World!</h1>
     <?php
-        echo "It's me Josh!";
+        $name = "Josh";
+        echo "It's me $name!";
     ?>
 </body>
 </html>
