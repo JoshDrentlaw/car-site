@@ -1,6 +1,12 @@
+<?php
+    if(isset($_POST['name'])) {
+        $name = htmlentities($_POST['name']);
+        $email = htmlentities($_POST['email']);
+    }
+?>
 <?php require 'inc/header.php'; ?>
     <h1>Contact</h1>
-    <form method="GET" action="contact.php">
+    <form method="POST" action="contact.php">
         <div>
             <label for="name">Name</label><br>
             <input type="text" name="name">
