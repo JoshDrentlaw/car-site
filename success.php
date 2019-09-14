@@ -5,12 +5,7 @@
     }
 ?>
 <?php require 'inc/header.php' ?>
-    <?php
-        $nameHeader = "<h1>Thank you $name for your interest!</h1>";
-        $emailHeader = "<h2>You should recieve a confirmation at $email.</h2>";
-        $disclaimer = "<p class=\"small muted\">Not really though...</p>";
-        echo($nameHeader);
-        echo($emailHeader);
-        echo($disclaimer);
-    ?>
+    <h1>Thank you <?php echo($name); ?> for your interest!</h1>
+    <h2>You should recieve a confirmation at <?php echo($email); ?>.</h2>
+    <p class="small muted">Not really though...</p>
 <?php require 'inc/footer.php' ?>
