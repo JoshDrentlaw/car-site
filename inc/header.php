@@ -15,6 +15,33 @@
     <title>Car Site</title>
 </head>
 <body>
+    <?php
+        $Makes = array(
+            "Honda",
+            "Hyundai",
+            "Toyota",
+            "Nissan",
+            "Chevrolet",
+            "GMC",
+            "Ford",
+            "Tesla",
+            "Mazda",
+            "Suburu",
+            "Chrysler",
+            "Jeep",
+            "Acura",
+            "Buick",
+            "Cadillac",
+            "Dodge",
+            "Volkswagen",
+            "Volvo",
+            "Mitsubishi",
+            "BMW",
+            "Mercedes-Benz",
+            "Bugatti"
+        );
+    ?>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="navbar-nav mr-auto">
@@ -30,4 +57,4 @@
             </ul>
         </nav>
     </header>
-    <main class="fluid-container p-4">
+    <main class="container p-4">
